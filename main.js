@@ -3,11 +3,18 @@
 
 
 // První příklad - vypiš vzestupně čísla od 0 do 10
+
 console.log('První příklad - vzestupná řada 0 - 10');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+let cisla = [];
+
+for (let i = 0; i <= 10; i = i + 1) {
+    cisla.push(i);
+}
+
+console.log(cisla);
 
 
 
@@ -19,7 +26,13 @@ console.log('Druhý příklad - rozdíl mezi <= a <');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+let cisla2 = [];
+
+for (let i = 0; i < 10; i = i + 1) {
+    cisla2.push(i);
+}
+
+console.log(cisla2);
 
 
 
@@ -28,4 +41,10 @@ console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+let cisla3 = [];
+
+for (let i = 10; i >= 0; i = i - 1) {
+    cisla3.push(i);
+}
+
+console.log(cisla3);
