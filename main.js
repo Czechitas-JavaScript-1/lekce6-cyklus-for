@@ -13,7 +13,6 @@ while (i < 10) {
 
 console.log('-------------------');
 
-
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
 // v podmínce uvnitř cyklu
